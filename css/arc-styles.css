@@ -7,13 +7,13 @@
 
 *::-moz-selection {
   /* Code for Firefox */
-  color: #fce8e7;
-  background: #9e6a5b;
+  color: #cccccc;
+  background: #252525;
 }
 
 *::selection {
-  color: #fce8e7;
-  background: #9e6a5b;
+  color: #cccccc;
+  background: #252525;
 }
 
 img {
@@ -35,17 +35,17 @@ body::-webkit-scrollbar {
 
 body {
   scrollbar-width: thin;
-  scrollbar-color: #9e6a5b #fce8e7;
+  scrollbar-color: #252525 #cccccc;
 }
 
 body::-webkit-scrollbar-track {
-  background: #fce8e7;
+  background: #cccccc;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #9e6a5b;
+  background-color: #252525;
   border-radius: 6px;
-  border: 3px solid #fce8e7;
+  border: 3px solid #cccccc;
 }
 
 .container {
@@ -109,7 +109,7 @@ body {
 }
 
 nav {
-  background-color: #fce8e7;
+  background-color: #cccccc;
   box-shadow: 0px 5px 5px white;
   padding: 0.25rem 0 0.25rem 0;
   height: 80px;
@@ -137,7 +137,7 @@ nav a {
   font-family: "Pinyon Script", cursive;
   font-size: 2.5rem;
   font-weight: 100;
-  color: #9e6a5b;
+  color: #252525;
 }
 
 .brand-subtitle {
@@ -157,7 +157,7 @@ nav a {
 .nav-links a {
   height: 100%;
   position: relative;
-  color: #9e6a5b;
+  color: #252525;
   text-decoration: none;
   letter-spacing: 2px;
   font-size: 1.25rem;
@@ -169,7 +169,7 @@ nav a {
   left: 0;
   width: 100%;
   height: 1.5px;
-  background-color: #9e6a5b;
+  background-color: #252525;
   opacity: 0.8;
   transform: scaleX(0);
   transform-origin: center;
@@ -186,7 +186,7 @@ nav a {
 .burger div {
   width: 25px;
   height: 2px;
-  background-color: #9e6a5b;
+  background-color: #252525;
   margin: 5px;
   transition: all 0.3s ease;
 }
@@ -206,7 +206,7 @@ nav a {
   position: absolute;
   right: 0px;
   top: 80px;
-  background-color: #fce8e7;
+  background-color: #cccccc;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -243,13 +243,13 @@ nav a {
 
 .btn {
   padding: 0.25em 1em;
-  background-color: #fce8e7;
+  background-color: #cccccc;
   text-align: center;
   font-size: 1.25rem;
   border-radius: 0.25rem;
   text-decoration: none;
-  color: #9e6a5b;
-  border: 1px solid #9e6a5b;
+  color: #252525;
+  border: 1px solid #252525;
 }
 .btn:hover {
   opacity: 0.9;
@@ -260,14 +260,14 @@ nav a {
 .btn:focus {
   /*Input Focus Settings*/
   outline: none;
-  box-shadow: 0 0 2pt 1pt #E66D4C;
+  box-shadow: 0 0 2pt 1pt #4d4d4d;
   transition: box-shadow 250ms ease;
 }
 
 .herobtn {
   text-transform: uppercase;
   font-size: 1.75rem;
-  border: 1px solid #fce8e7;
+  border: 1px solid #cccccc;
 }
 .herobtn:focus {
   box-shadow: 0 0 2pt 1pt #f3e7e7;
@@ -302,9 +302,9 @@ nav a {
 .cardtext {
   position: absolute;
   bottom: 0;
-  background: rgba(252, 232, 231, 0.7);
+  background: rgba(204, 204, 204, 0.7);
   padding: 2rem;
-  color: #9e6a5b;
+  color: #252525;
   width: 100%;
 }
 
@@ -316,11 +316,11 @@ nav a {
 }
 
 .pricecard {
-  border: 1px solid #9e6a5b;
+  border: 1px solid #252525;
   border-radius: 0.25rem;
   display: flex;
   flex-direction: column;
-  color: #805d54;
+  color: #4d4d4d;
 }
 
 .pricecard-body {
@@ -333,7 +333,7 @@ nav a {
 }
 
 .pricecard-title {
-  background-color: rgba(252, 232, 231, 0.4);
+  background-color: rgba(204, 204, 204, 0.4);
   font-size: 1.1rem;
   font-family: "Montserrat", sans-serif;
   line-height: 0.9;
@@ -341,7 +341,7 @@ nav a {
 }
 
 .pricecard-price {
-  color: #E66D4C;
+  color: #c0c0c0;
   font-size: 2rem;
   font-family: "Pinyon Script", cursive;
 }
@@ -388,9 +388,9 @@ nav a {
   width: 40px;
   height: 38px;
   padding: 1rem 1rem;
-  color: #9e6a5b;
-  background-color: #fce8e7;
-  border: 1px solid #9e6a5b;
+  color: #252525;
+  background-color: #cccccc;
+  border: 1px solid #252525;
   border-right: 0;
   border-radius: 0.25rem 0 0 0.25rem;
   display: flex;
@@ -402,7 +402,7 @@ nav a {
   /*Basic Input field Settings for all form boxes*/
   padding: 0.375rem 0.75rem;
   font-family: "Montserrat", sans-serif;
-  border: 1px solid #9e6a5b;
+  border: 1px solid #252525;
 }
 
 .textarea {
@@ -416,7 +416,7 @@ nav a {
 .input:focus {
   /*Input Focus Settings*/
   outline: none;
-  box-shadow: 0 0 2pt 1pt #E66D4C;
+  box-shadow: 0 0 2pt 1pt #4d4d4d;
   transition: box-shadow 250ms ease;
 }
 
@@ -467,13 +467,13 @@ nav a {
   }
 }
 .textbox {
-  background-color: rgba(252, 232, 231, 0.7);
+  background-color: rgba(204, 204, 204, 0.7);
 }
 
 .textbox-title {
   font-size: 2.8rem;
   font-weight: bold;
-  color: #9e6a5b;
+  color: #252525;
 }
 
 .textbox-text {
@@ -498,7 +498,7 @@ nav a {
 }
 
 footer {
-  background-color: #fce8e7;
+  background-color: #cccccc;
 }
 footer h3 {
   margin-bottom: 0.5rem;
@@ -540,7 +540,7 @@ footer h3 {
 
   .footer-social:before, .footer-social:after {
     content: "";
-    background-color: #9e6a5b;
+    background-color: #252525;
     height: 2px;
     width: 100%;
     position: relative;
@@ -587,7 +587,7 @@ footer h3 {
 
 /*=========================================*/
 .copyright {
-  color: #9e6a5b;
+  color: #252525;
   font-size: 1.25rem;
   font-family: "Pinyon Script", cursive;
 }
@@ -601,7 +601,7 @@ footer h3 {
   background-position: center;
   background-repeat: no-repeat;
   padding: 2.5vh;
-  background-color: #F3C6C4;
+  background-color: #f5f5f5;
   background-blend-mode: multiply;
   color: #ffecd1;
 }
@@ -631,7 +631,7 @@ footer h3 {
 
 .pricehero {
   background-image: url("../img/price-hero.jpg");
-  background-color: #fce8e7;
+  background-color: #cccccc;
   max-height: 50vh;
 }
 
@@ -679,7 +679,7 @@ footer h3 {
   word-wrap: break-word;
 }
 .contactdetails .fa-li {
-  color: #9e6a5b;
+  color: #252525;
 }
 
 .abouthero {
@@ -743,11 +743,11 @@ footer h3 {
   }
 }
 .pinkbg {
-  background-color: #fce8e7;
+  background-color: #cccccc;
 }
 
 .accentbg {
-  background-color: #FFD5C3;
+  background-color: #fae5dc;
 }
 
 .carousel {
@@ -795,14 +795,14 @@ footer h3 {
   width: 12px;
   height: 12px;
   opacity: 1;
-  background: #9e6a5b;
+  background: #252525;
   border: 2px solid white;
 }
 
 /* fill-in selected dot */
 .flickity-page-dots .dot.is-selected {
   background: white;
-  border: 2px solid #9e6a5b;
+  border: 2px solid #252525;
 }
 
 /* carousel height */
@@ -828,12 +828,12 @@ footer h3 {
 }
 
 .social-icon {
-  color: #9e6a5b;
+  color: #252525;
   font-size: 2em;
 }
 
 .social-icon:hover {
-  color: rgba(158, 106, 91, 0.7);
+  color: rgba(37, 37, 37, 0.7);
 }
 
 .staff-jobtitle {
